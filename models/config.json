@@ -1,0 +1,14 @@
+{
+  "presets": {
+    "top-down": {
+      "camera": "PerspectiveCamera(75, win.ratio, 0.1, 1000)",
+      "controls": "WASD + Mouse click for attack",
+      "physics": "RigidBody"
+    },
+    "side-scroller": {
+      "camera": "FollowCharacter(x, y)",
+      "controls": "Space to Jump",
+      "physics": "ConstantGravity"
+    }
+  }
+}
